@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Old+Standard+TT&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+body{
+    margin: 0;
+    background-color: #2F6E89;
+}
+
+html{
+    font: normal 18px sans-serif;
+    scroll-behavior: smooth !important;
+    font-family: 'Inter', sans-serif;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+header {
+    top: 0;
+    left: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #0F2B3E;
+}
+header h1 {
+    font-family: 'Abhaya Libre', sans-serif;
+}
+nav li{
+    list-style: none;
+}
+header nav {
+    display: flex;
+}
+header nav li {
+    margin: 0 15px;
+}
+header nav li:first-child {
+    margin-left: 0;
+}
+header nav li:last-child {
+    margin-right: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.5;
+}
+a:hover{
+    text-decoration: solid;
+    opacity: 1.0;
+}
+.title_section{
+    color: white;
+    background-color: #0F2B3E;
+    padding: 9px 0px 9px 0px;
+}
+h2{
+    font-family: 'Abhaya',sans-serif;
+    text-align: center;
+
+}
+
+
+
+/*------------------------------------------------inici0----------------------*/
+
+.container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem auto;
+}
+.text{
+    width: 40%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.text h2{
+    margin: 0;
+}
+.image{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    transition: all ease-out 0.3s;
+}
+.image:hover {
+    transform: scale(1.1);
+}
+
+.button a{
+    background-color: #DDEAF1;
+    color: black;
+    border-radius: 15px;
+    padding: 0.5rem 4rem;
+    transition: all ease-out 0.3s;
+}
+
+.button a:hover{
+    background-color: white;
+    transform: scale(2.1);
+}
+
+/*-------------------------------------------------------------Nosotros--------------------------------------------*/
+.s1-card{
+    text-align: center;
+    color: white;
+}
+.image2{
+    width: 200px;
+    height: 300px;
+    color: white;
+
+}
+.container2{
+    gap: 1rem;
+}
+.title{
+    color: white;
+    transition: all ease-out 0.3s;
+    opacity: 0.8;
+}
+/*-------------------------------------------------------------Servicio--------------------------------------------*/
+.image3{
+    width: 200px;
+    height: 300px;
+}
+.image4{
+    width: 120px;
+    height: 100px;
+
+}
+.image4:hover{
+    cursor: pointer;
+}
+
+.text4{
+    text-align: center;
+    color: white;
+}
+/*-------------------------------------------------------------Testimonios--------------------------------------------*/
+.image5{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.container4{
+    gap: 2rem;
+}
+.container5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.fa-star{
+    color: #FFAA04;
+}
+/*-------------------------------------- Footer --------------------------------------*/
+footer{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+footer ul{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding: 0% 30%;
+}
+footer ul li{
+    width: 30%;
+    list-style: none;
+    margin: auto;
+}
+footer ul li a{
+    display: inline-block;
+    font-size: 40px;
+    margin: 10%;
+}
+footer p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.container7{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.image7{
+    width: 400px;
+    height: 300px;
+
+}
+.image8{
+    width: 180px;
+    height: 80px;
+}
+.fa-facebook-square{
+    color: darkblue;
+}
+.fa-instagram-square{
+    color: darkviolet;
+}
+.fa-twitter-square{
+    color: deepskyblue;
+}
+.fa-youtube-square{
+    color: darkred;
+}
